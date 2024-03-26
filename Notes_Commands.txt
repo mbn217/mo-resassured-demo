@@ -44,3 +44,8 @@ https://jsoncrack.com/editor
 #Link to the API: https://reqres.in/
 https://reqres.in/
 
+#JASON Path finder
+https://jsonpathfinder.com/
+
+#Static imports are needed to use the methods without using the class name
+https://github.com/rest-assured/rest-assured/wiki/Usage
