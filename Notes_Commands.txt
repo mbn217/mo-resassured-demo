@@ -44,6 +44,14 @@ https://jsoncrack.com/editor
 #Link to the API: https://reqres.in/
 https://reqres.in/
 
+#Lisf of Free APIs
+https://iamsajan.com/free-api-without-an-api-key/
+
+#Online Rest Client
+https://restninja.io/
+https://reqbin.com/
+
+
 #JASON Path finder
 https://jsonpathfinder.com/
 
