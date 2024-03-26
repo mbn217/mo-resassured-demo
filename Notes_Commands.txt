@@ -1,0 +1,46 @@
+Whats Rest API:
+Rest API is a way of communication between client and server.
+It is a set of rules that developers follow when they create their API.
+One of the rules is that you should be able to get a piece of data (called a resource) when you link to a specific URL.
+
+What is Soap API:
+SOAP (Simple Object Access Protocol) is a messaging protocol
+that allows programs that run on disparate operating systems (such as Windows and Linux)
+to communicate using Hypertext Transfer Protocol (HTTP) and its Extensible Markup Language (XML).
+
+What is the difference between Rest and Soap API:
+1. Rest API is a set of rules that developers follow when they create their API.
+2. SOAP API is a messaging protocol that allows programs that run on disparate operating systems to communicate using HTTP and XML.
+3. REST APIs uses multiple standards like HTTP, JSON, URL, and XML while SOAP APIs is largely based on HTTP and XML.
+4. REST APIs are easy to integrate with existing websites with no need to install any additional software while SOAP APIs are not easy to integrate with existing websites.
+5. REST APIs are considered to be faster than SOAP APIs.
+6. REST APIs are more flexible than SOAP APIs.
+
+What is the difference between Get and Post:
+1. GET requests data from a specified resource while POST submits data to be processed to a specified resource.
+2. GET requests can be cached and remain in the browser history while POST requests are never cached and do not remain in the browser history.
+3. GET requests can be bookmarked while POST requests cannot be bookmarked.
+4. GET requests have length restrictions while POST requests have no restrictions.
+5. GET requests should be used only to retrieve data while POST requests should be used to update data.
+
+What is the difference between Put and Patch:
+1. PUT requests to update an existing resource while PATCH requests to update a part of an existing resource.
+2. PUT requests are idempotent while PATCH requests are not idempotent.
+3. PUT requests require the client to send the entire updated resource while PATCH requests require the client to send only the updated part of the resource.
+4. PUT requests are used to update the entire resource while PATCH requests are used to update a part of the resource.
+
+What is the difference between Put and Post:
+1. PUT requests to update an existing resource while POST submits data to be processed to a specified resource.
+2. PUT requests are idempotent while POST requests are not idempotent.
+3. PUT requests require the client to send the entire updated resource while POST requests require the client to send only the data to be processed.
+4. PUT requests are used to update the entire resource while POST requests are used to submit data to be processed.
+
+
+
+#Editor to view the API response Online
+https://jsoncrack.com/editor
+
+
+#Link to the API: https://reqres.in/
+https://reqres.in/
+
