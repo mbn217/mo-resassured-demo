@@ -1,12 +1,34 @@
-Whats Rest API:
-Rest API is a way of communication between client and server.
-It is a set of rules that developers follow when they create their API.
-One of the rules is that you should be able to get a piece of data (called a resource) when you link to a specific URL.
+Web services, REST, and SOAP are all technologies used for building and interacting with web services,
+but they serve different purposes and have distinct characteristics.
+----------------------------------------------------------------------------------------------------------------------------
 
-What is Soap API:
-SOAP (Simple Object Access Protocol) is a messaging protocol
-that allows programs that run on disparate operating systems (such as Windows and Linux)
-to communicate using Hypertext Transfer Protocol (HTTP) and its Extensible Markup Language (XML).
+Web Services
+Web services are a way for applications to communicate with each other over the internet.
+They allow different software applications to interact and exchange data and services without
+the need for the user to understand the underlying technology.
+Web services can be built using various protocols and standards, including SOAP and REST
+----------------------------------------------------------------------------------------------------------------------------
+
+Whats Rest API (Representational State Transfer):
+Definition: REST is an architectural style for designing networked applications. It uses standard HTTP methods (GET, POST, PUT, DELETE) to perform operations on resources represented in web services.
+Characteristics:REST is an architectural pattern that does not enforce a specific protocol or message format.
+It can use various data formats, including JSON, which is more lightweight and efficient than XML.
+It is stateless, meaning each request from a client to a server must contain all the information needed to understand and process the request.
+RESTful services are designed to be simple and scalable, making them suitable for web, mobile, and social applications.
+It is easier to implement and requires less bandwidth compared to SOAP. REST also supports caching, which can improve performance 34.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+What is Soap API(Simple Object Access Protocol):
+Definition: SOAP is a protocol for exchanging structured information in web services using XML.
+It defines a standard way for applications to communicate with each other over the internet.
+Characteristics:SOAP is a protocol with a specification that includes a WSDL (Web Services Description Language)
+file, which provides information about the web service, including what it does and its location.
+It uses XML for message format, which can be verbose and requires more bandwidth.
+SOAP supports various security mechanisms, including WS-Security, which adds enterprise security features.
+It is suitable for scenarios requiring high security, such as financial transactions or telecommunication services 34.
+----------------------------------------------------------------------------------------------------------------------------
 
 What is the difference between Rest and Soap API:
 1. Rest API is a set of rules that developers follow when they create their API.
@@ -15,6 +37,7 @@ What is the difference between Rest and Soap API:
 4. REST APIs are easy to integrate with existing websites with no need to install any additional software while SOAP APIs are not easy to integrate with existing websites.
 5. REST APIs are considered to be faster than SOAP APIs.
 6. REST APIs are more flexible than SOAP APIs.
+----------------------------------------------------------------------------------------------------------------------------
 
 What is the difference between Get and Post:
 1. GET requests data from a specified resource while POST submits data to be processed to a specified resource.
@@ -22,18 +45,21 @@ What is the difference between Get and Post:
 3. GET requests can be bookmarked while POST requests cannot be bookmarked.
 4. GET requests have length restrictions while POST requests have no restrictions.
 5. GET requests should be used only to retrieve data while POST requests should be used to update data.
+----------------------------------------------------------------------------------------------------------------------------
 
 What is the difference between Put and Patch:
 1. PUT requests to update an existing resource while PATCH requests to update a part of an existing resource.
 2. PUT requests are idempotent while PATCH requests are not idempotent.
 3. PUT requests require the client to send the entire updated resource while PATCH requests require the client to send only the updated part of the resource.
 4. PUT requests are used to update the entire resource while PATCH requests are used to update a part of the resource.
+----------------------------------------------------------------------------------------------------------------------------
 
 What is the difference between Put and Post:
 1. PUT requests to update an existing resource while POST submits data to be processed to a specified resource.
 2. PUT requests are idempotent while POST requests are not idempotent.
 3. PUT requests require the client to send the entire updated resource while POST requests require the client to send only the data to be processed.
 4. PUT requests are used to update the entire resource while POST requests are used to submit data to be processed.
+----------------------------------------------------------------------------------------------------------------------------
 
 
 
