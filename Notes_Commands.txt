@@ -2,19 +2,18 @@ Web services, REST, and SOAP are all technologies used for building and interact
 but they serve different purposes and have distinct characteristics.
 ----------------------------------------------------------------------------------------------------------------------------
 
-Web Services
 Web services are a way for applications to communicate with each other over the internet.
 They allow different software applications to interact and exchange data and services without
 the need for the user to understand the underlying technology.
 Web services can be built using various protocols and standards, including SOAP and REST
 ----------------------------------------------------------------------------------------------------------------------------
 
-Whats Rest API (Representational State Transfer):
+What's Rest API (Representational State Transfer):
 Definition: REST is an architectural style for designing networked applications. It uses standard HTTP methods (GET, POST, PUT, DELETE) to perform operations on resources represented in web services.
 Characteristics:REST is an architectural pattern that does not enforce a specific protocol or message format.
 It can use various data formats, including JSON, which is more lightweight and efficient than XML.
 It is stateless, meaning each request from a client to a server must contain all the information needed to understand and process the request.
-RESTful services are designed to be simple and scalable, making them suitable for web, mobile, and social applications.
+RESTful's services are designed to be simple and scalable, making them suitable for web, mobile, and social applications.
 It is easier to implement and requires less bandwidth compared to SOAP. REST also supports caching, which can improve performance 34.
 
 ----------------------------------------------------------------------------------------------------------------------------
@@ -69,16 +68,18 @@ https://jsoncrack.com/editor
 
 #Link to the API: https://reqres.in/
 https://reqres.in/
+https://www.deckofcardsapi.com/
 
 #Lisf of Free APIs
 https://iamsajan.com/free-api-without-an-api-key/
+
 
 #Online Rest Client
 https://restninja.io/
 https://reqbin.com/
 
 
-#JASON Path finder
+#JSON Path finder
 https://jsonpathfinder.com/
 
 #Static imports are needed to use the methods without using the class name
