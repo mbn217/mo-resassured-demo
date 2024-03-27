@@ -1,3 +1,28 @@
+The term "API" in the context of Java Collection API refers to the Application Programming Interface,
+which is a set of predefined methods and classes that developers can use to interact with the Java platform.
+The Java Collection API is part of the Java Standard Edition (Java SE) and is included in the Java Development Kit
+(JDK). It provides a framework for storing, manipulating,
+and accessing data structures like lists, sets, and maps.
+
+The reason it's called an API, even though it doesn't call any external web service,
+is because it follows the general definition of an API. An API is a set of rules and protocols
+for building and interacting with software applications.
+It defines the methods and data formats that a program can use to communicate with other
+programs or components. In the case of the Java Collection API,
+it defines the methods and classes that Java developers can use to work with collections of objects.
+
+The Java Collection API is designed to be used internally within Java applications
+to manage collections of objects. It provides a standard way to perform common operations on collections,
+such as adding, removing, and searching for elements. This standardization helps ensure that Java applications
+can work with collections in a consistent manner, regardless of the specific implementation of the collection.
+
+The term "API" is used broadly to refer to any interface that allows one software component to
+interact with another. This includes not only web services that communicate over the internet
+but also internal APIs that facilitate communication between different parts of a software application.
+The Java Collection API is an example of an internal API, as it is used internally within Java applications
+to manage collections of objects
+
+----------------------------------------------------------------------------------------------------------------------------
 Web services, REST, and SOAP are all technologies used for building and interacting with web services,
 but they serve different purposes and have distinct characteristics.
 ----------------------------------------------------------------------------------------------------------------------------
